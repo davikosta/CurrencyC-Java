@@ -48,7 +48,7 @@ Navegue até a raiz do projeto no seu terminal (onde o arquivo `pom.xml` está l
 ```bash
 mvn clean install
 ```
-### 4. Execute a Aplicação
+### 3.1. Execute a Aplicação
 
 Após a compilação bem-sucedida, execute a aplicação com o seguinte comando Maven:
 
