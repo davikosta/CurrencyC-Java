@@ -41,7 +41,7 @@ Esta aplicação utiliza a [ExchangeRate-API](https://www.exchangerate-api.com/)
     Exemplo: `private static final String API_KEY = "sua_chave_aqui";`
 4.  Salve o arquivo.
 
-### 3. Compile a Aplicação
+### 3. Compile a Aplicação (Caso não queira executar através de uma IDE da sua preferência, como o IntelliJ IDEA)
 
 Navegue até a raiz do projeto no seu terminal (onde o arquivo `pom.xml` está localizado) e execute o seguinte comando Maven para compilar o projeto e baixar as dependências:
 
@@ -71,7 +71,7 @@ Você pode encontrar uma lista completa dos códigos de moedas suportados pela E
 - AUD: Dólar Australiano
 - CHF: Franco Suíço
 
-Estrutura do Projeto
+### Estrutura do Projeto
 
 - ```src/main/java/io/github/davikosta/conversormoedas/main/ConversorApp.java```: Classe principal que inicia e gerencia a interação com o usuário.
 - ```src/main/java/io/github/davikosta/conversormoedas/model/ExchangeRateResponse.java```: Representa a estrutura dos dados JSON retornados pela API de taxas de câmbio.
