@@ -73,10 +73,10 @@ Você pode encontrar uma lista completa dos códigos de moedas suportados pela E
 
 ### Estrutura do Projeto
 
-- ```src/main/java/io/github/davikosta/conversormoedas/main/ConversorApp.java```: Classe principal que inicia e gerencia a interação com o usuário.
-- ```src/main/java/io/github/davikosta/conversormoedas/model/ExchangeRateResponse.java```: Representa a estrutura dos dados JSON retornados pela API de taxas de câmbio.
-- ```src/main/java/io/github/davikosta/conversormoedas/service/ExchangeRateApiService.java```: Responsável por fazer as requisições HTTP à ExchangeRate-API e processar as respostas.
-- ```src/main/java/io/github/davikosta/conversormoedas/util/InputHandler.java```: Classe utilitária para lidar com a entrada do usuário de forma segura.
+- ```src/main/java/io/github/davikosta/currencyc/main/ConversorApp.java```: Classe principal que inicia e gerencia a interação com o usuário.
+- ```src/main/java/io/github/davikosta/currencyc/model/ExchangeRateResponse.java```: Representa a estrutura dos dados JSON retornados pela API de taxas de câmbio.
+- ```src/main/java/io/github/davikosta/currencyc/service/ExchangeRateApiService.java```: Responsável por fazer as requisições HTTP à ExchangeRate-API e processar as respostas.
+- ```src/main/java/io/github/davikosta/currencyc/util/InputHandler.java```: Classe utilitária para lidar com a entrada do usuário de forma segura.
 - ```pom.xml```: Arquivo de configuração do Maven, contendo as dependências do projeto (OkHttp para requisições HTTP e Gson para parsear JSON).
 
 ### Licença
