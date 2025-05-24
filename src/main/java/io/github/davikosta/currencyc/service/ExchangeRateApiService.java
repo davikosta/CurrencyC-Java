@@ -1,7 +1,7 @@
-package io.github.davikosta.conversormoedas.service;
+package io.github.davikosta.currencyc.service;
 
 import com.google.gson.Gson;
-import io.github.davikosta.conversormoedas.model.ExchangeRateResponse;
+import io.github.davikosta.currencyc.model.ExchangeRateResponse;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;

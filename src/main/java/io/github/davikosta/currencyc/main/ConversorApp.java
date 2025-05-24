@@ -1,7 +1,7 @@
-package io.github.davikosta.conversormoedas.main;
+package io.github.davikosta.currencyc.main;
 
-import io.github.davikosta.conversormoedas.service.ExchangeRateApiService;
-import io.github.davikosta.conversormoedas.util.InputHandler;
+import io.github.davikosta.currencyc.service.ExchangeRateApiService;
+import io.github.davikosta.currencyc.util.InputHandler;
 
 import java.io.IOException;
 

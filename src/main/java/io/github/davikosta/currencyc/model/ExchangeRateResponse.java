@@ -1,4 +1,4 @@
-package io.github.davikosta.conversormoedas.model;
+package io.github.davikosta.currencyc.model;
 
 import com.google.gson.annotations.SerializedName;
 import java.util.Map;

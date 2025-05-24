@@ -1,4 +1,4 @@
-package io.github.davikosta.conversormoedas.util;
+package io.github.davikosta.currencyc.util;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
