@@ -50,14 +50,10 @@ mvn clean install
 ```
 ### 4. Execute a Aplicação
 
-```bash
-mvn exec:java -Dexec.mainClass="io.github.davikosta.conversormoedas.main.ConversorApp"
-```
-
 Após a compilação bem-sucedida, execute a aplicação com o seguinte comando Maven:
 
 ```bash
-mvn exec:java -Dexec.mainClass="io.github.davikosta.conversormoedas.main.ConversorApp"
+java -jar target/conversor-moedas-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 A aplicação será iniciada e você poderá começar a converter moedas seguindo as instruções no terminal.
